@@ -1,0 +1,27 @@
+{
+    "name": "@represent/utilities",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "test": "exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/funkyphyl/utilities.git"
+    },
+    "files": [
+        "lib/**/*"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/funkyphyl/utilities/issues"
+    },
+    "homepage": "https://github.com/funkyphyl/utilities#readme",
+    "devDependencies": {
+        "typescript": "^4.5.5"
+    }
+}

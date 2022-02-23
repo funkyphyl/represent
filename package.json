@@ -1,6 +1,6 @@
 {
-    "name": "@represent/utilities",
-    "version": "1.0.0",
+    "name": "@skavl/utilities",
+    "version": "0.1.0",
     "description": "",
     "main": "index.js",
     "types": "./dist/index.d.ts",
@@ -10,17 +10,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/funkyphyl/utilities.git"
+        "url": "git+https://github.com/skavl/utilities.git"
     },
     "files": [
         "lib/**/*"
     ],
-    "author": "",
+    "author": "funkyphyl",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/funkyphyl/utilities/issues"
+        "url": "https://github.com/skavl/utilities/issues"
     },
-    "homepage": "https://github.com/funkyphyl/utilities#readme",
+    "homepage": "https://github.com/skavl/utilities#readme",
     "devDependencies": {
         "typescript": "^4.5.5"
     }

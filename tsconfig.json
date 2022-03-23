@@ -3,7 +3,8 @@
         "declaration": true,
         "strict": true,
         "target": "es6",
-        "outDir": "./lib"
+        "outDir": "./lib",
+        "module": "ES2020"
     },
     "include": [
         "src"

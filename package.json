@@ -2,8 +2,9 @@
     "name": "@represent-no/utilities",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-    "types": "./dist/index.d.ts",
+    "type": "module",
+    "exports": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "scripts": {
         "test": "exit 1",
         "build": "tsc"

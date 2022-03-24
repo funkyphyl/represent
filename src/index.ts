@@ -1,6 +1,6 @@
-import isServer from './isServer';
-import validateEmail from './validateEmail';
-import trackEvent from './trackEvent';
-import trackPageView from './trackPageView';
+import isServer from './isServer/index';
+import trackEvent from './trackEvent/index';
+import trackPageView from './trackPageView/index';
+import validateEmail from './validateEmail/index';
 
 export { isServer, trackEvent, trackPageView, validateEmail };

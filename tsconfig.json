@@ -1,22 +1,15 @@
 {
-    "compilerOptions": {
-        "baseUrl": "./src",
-        "paths": {
-            "types/*": [
-                "types/*"
-            ]
-        },
-        "declaration": true,
-        "strict": true,
-        "target": "ES2020",
-        "outDir": "./lib",
-        "module": "ES2020",
-        "moduleResolution": "Node"
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "types/*": ["types/*"]
     },
-    "include": [
-        "src"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    "declaration": true,
+    "strict": true,
+    "target": "ES6",
+    "outDir": "./lib",
+    "module": "ES6",
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

@@ -1,5 +1,5 @@
-import isServer from "./isServer";
-import validateEmail from "./validateEmail";
+import isServer from './isServer';
+import validateEmail from './validateEmail';
 import trackEvent from './trackEvent';
 import trackPageView from './trackPageView';
 

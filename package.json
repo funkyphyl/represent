@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "description": "",
   "type": "module",
-  "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
     "test": "exit 1",

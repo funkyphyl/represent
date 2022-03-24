@@ -1,4 +1,4 @@
-import DataLayer from 'types/DataLayer';
+import DataLayer from '../types/DataLayer';
 
 declare const dataLayer: DataLayer;
 

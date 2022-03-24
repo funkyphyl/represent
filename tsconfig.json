@@ -1,5 +1,11 @@
 {
     "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "types/*": [
+                "types/*"
+            ]
+        },
         "declaration": true,
         "strict": true,
         "target": "ES2020",

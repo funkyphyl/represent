@@ -1,6 +1,6 @@
 {
     "name": "@represent-no/utilities",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "",
     "type": "module",
     "exports": "./lib/index.js",

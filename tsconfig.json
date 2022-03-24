@@ -1,5 +1,4 @@
 {
-    "baseUrl": "./src",
     "compilerOptions": {
         "declaration": true,
         "strict": true,

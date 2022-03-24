@@ -2,9 +2,7 @@
     "name": "@represent-no/utilities",
     "version": "1.0.5",
     "description": "",
-    "type": "module",
     "main": "./lib/index.js",
-    "exports": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "scripts": {
         "test": "exit 1",

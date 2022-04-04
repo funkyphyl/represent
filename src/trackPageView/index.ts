@@ -2,16 +2,23 @@ import DataLayer from 'types/DataLayer';
 
 declare const dataLayer: DataLayer;
 
-const trackPageView = (url: string): void => {
+/**
+ * Add new object to dataLayer.
+ * @param url string
+ * @param initialPageView boolean
+ */
+const trackPageView = (url: string, initialPageView: boolean = false): void => {
   if (typeof (dataLayer as DataLayer) !== 'undefined') {
     dataLayer.push({
-      PageView: url,
+      page: url,
       event: 'PageView',
+      initialPageView,
     });
   } else {
     console.log('trackPageView', {
-      PageView: url,
+      page: url,
       event: 'PageView',
+      initialPageView,
     });
   }
 };

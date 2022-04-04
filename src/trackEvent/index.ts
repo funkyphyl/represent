@@ -4,11 +4,12 @@ type EventProps = {
   action?: string;
   category?: string;
   label?: string;
+  value?: any
 };
 
 declare const dataLayer: DataLayer;
 
-const trackEvent = ({ action, category, label = '', ...rest }: EventProps) => {
+const trackEvent = ({ action, category, label = '',value, ...rest }: EventProps) => {
   if (typeof (dataLayer as DataLayer) !== 'undefined') {
     // eslint-disable-next-line no-undef
     dataLayer.push({
@@ -16,6 +17,7 @@ const trackEvent = ({ action, category, label = '', ...rest }: EventProps) => {
       action,
       category,
       label,
+      value,
       ...rest,
     });
   } else {

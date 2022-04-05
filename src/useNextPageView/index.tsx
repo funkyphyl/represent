@@ -1,4 +1,4 @@
-import trackPageView from '../trackPageView/index';
+import trackPageView from '../trackPageView';
 import { useEffect } from 'react';
 import { NextRouter } from 'next/router';
 
